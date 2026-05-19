@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Produtos – Santos Clean</title>
+  <meta name="description" content="Mais de 3.000 itens em higiene, limpeza, descartáveis, papéis institucionais, dispensers e muito mais. Conheça o portfólio da Santos Clean."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img
+      src="logo.png"
+      alt="Santos Clean"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+    />
+    <div class="logo-placeholder" style="display:none;">
+      <span>🖼</span> logo.png
+    </div>
+  </a>
+
+  <ul class="nav-links" id="navMenu">
+    <li><a href="index.html">Início</a></li>
+    <li><a href="quem-somos.html">Quem Somos</a></li>
+    <li><a href="produtos.html" class="active">Produtos</a></li>
+    <li>
+      <a href="https://wa.me/5513974032217?text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20os%20produtos%20Santos%20Clean."
+         target="_blank" rel="noopener" class="nav-wa">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Fale Conosco
+      </a>
+    </li>
+  </ul>
+
+  <button class="nav-hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Abrir menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb">
+      <a href="index.html">Início</a>
+      <span>›</span>
+      <span style="color:#fff">Produtos</span>
+    </div>
+    <h1>Mais de <em>3.000 itens</em><br/>para cada necessidade</h1>
+    <p>Do produto de limpeza ao descartável, temos a solução certa para cada ambiente. Qualidade garantida, entrega ágil e atendimento personalizado.</p>
+  </div>
+</section>
+
+<!-- ===== CATEGORIAS ===== -->
+<section class="products-section">
+  <div class="products-intro reveal">
+    <span class="section-tag">Portfólio Completo</span>
+    <h2 class="section-title">Nossas Categorias</h2>
+    <div class="accent-bar"></div>
+    <p class="section-sub">Produtos desenvolvidos para utilização em todos os ambientes — temos o item adequado para cada situação.</p>
+  </div>
+
+  <div class="cat-grid">
+
+    <!-- Higiene e Limpeza -->
+    <div class="cat-card reveal">
+      <div class="cat-icon">🧴</div>
+      <h3>Higiene e Limpeza</h3>
+      <ul>
+        <li>Desinfetantes</li>
+        <li>Detergentes</li>
+        <li>Álcool</li>
+        <li>Removedor</li>
+        <li>Água sanitária</li>
+        <li>Limpador multiuso</li>
+        <li>Sabonete líquido</li>
+      </ul>
+    </div>
+
+    <!-- Suporte e Dispensers -->
+    <div class="cat-card reveal" style="transition-delay:.06s">
+      <div class="cat-icon">🪣</div>
+      <h3>Suporte e Dispensers</h3>
+      <ul>
+        <li>Suporte para copos</li>
+        <li>Suporte papel higiênico</li>
+        <li>Saboneteiras</li>
+        <li>Toalheiros</li>
+        <li>Dispenser absorventes</li>
+        <li>Dispenser assento</li>
+        <li>Dispenser álcool gel</li>
+      </ul>
+    </div>
+
+    <!-- Papéis Institucionais -->
+    <div class="cat-card reveal" style="transition-delay:.12s">
+      <div class="cat-icon">📄</div>
+      <h3>Papéis Institucionais</h3>
+      <ul>
+        <li>Papel toalha copa</li>
+        <li>Papel toalha bobina</li>
+        <li>Papel toalha interfolha</li>
+        <li>Papel higiênico simples</li>
+        <li>Papel higiênico rolão</li>
+        <li>Papel higiênico interfolha</li>
+      </ul>
+    </div>
+
+    <!-- Descartáveis -->
+    <div class="cat-card reveal" style="transition-delay:.18s">
+      <div class="cat-icon">🥤</div>
+      <h3>Descartáveis</h3>
+      <ul>
+        <li>Copos descartáveis</li>
+        <li>Marmitex</li>
+        <li>Sacos de lixo</li>
+        <li>Sacos para lanches</li>
+        <li>Guardanapos</li>
+        <li>Touca TNT</li>
+        <li>Máscaras</li>
+      </ul>
+    </div>
+
+    <!-- Outros Produtos -->
+    <div class="cat-card reveal" style="transition-delay:.24s">
+      <div class="cat-icon">✨</div>
+      <h3>Outros Produtos</h3>
+      <ul>
+        <li>Cera acrílica e em pasta</li>
+        <li>Removedor de cera</li>
+        <li>Limpa carpete</li>
+        <li>Cestos de lixo</li>
+        <li>Coletores seletivos</li>
+        <li>Panos de limpeza (copa, perfex, chão)</li>
+        <li>Polidor de metais</li>
+        <li>Embalagens plásticas</li>
+        <li>Filme PVC</li>
+        <li>Flanela, estopa, lenço de papel</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== COUNTER ===== -->
+<div class="counter-banner">
+  <h2>3.000+</h2>
+  <p>itens disponíveis para empresas de todos os portes</p>
+  <a href="https://wa.me/5513974032217?text=Olá%2C%20gostaria%20de%20solicitar%20o%20catálogo%20completo%20Santos%20Clean."
+     target="_blank" rel="noopener" class="btn-primary" style="position:relative;z-index:1">
+    Solicitar catálogo completo →
+  </a>
+</div>
+
+<!-- ===== FABRICANTES ===== -->
+<section class="brands">
+  <div class="brands-head reveal">
+    <span class="section-tag">Marcas que distribuímos</span>
+    <h2 class="section-title on-dark">Fabricantes Parceiros</h2>
+    <div class="accent-bar center"></div>
+    <p class="section-sub on-dark" style="margin:0 auto;text-align:center;">
+      Trabalhamos com as marcas líderes do segmento, garantindo qualidade e procedência em cada produto entregue.
+    </p>
+  </div>
+  <div class="brands-grid reveal" style="transition-delay:.1s">
+    <div class="brand-pill">Perol</div>
+    <div class="brand-pill">Premisse</div>
+    <div class="brand-pill">Genco</div>
+    <div class="brand-pill">Coposul</div>
+    <div class="brand-pill">Netter</div>
+    <div class="brand-pill">SuperPro Bettanin</div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<div class="cta-banner">
+  <h2>Precisa de um orçamento rápido?</h2>
+  <p>Nosso representante responde direto pelo WhatsApp.</p>
+  <a href="https://wa.me/5513974032217?text=Olá%2C%20Márcio!%20Quero%20um%20orçamento%20Santos%20Clean."
+     target="_blank" rel="noopener" class="btn-white">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    Falar no WhatsApp
+  </a>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-name">SANTOS<span>CLEAN</span></div>
+      <p class="footer-desc">Distribuidora 100% brasileira de produtos de higiene, limpeza e descartáveis para o mercado institucional. Desde 2014.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navegação</h5>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="quem-somos.html">Quem Somos</a></li>
+        <li><a href="produtos.html">Nossos Produtos</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Contato</h5>
+      <address>
+        <a href="tel:+551330270402">(13) 3027-0402</a>
+        <a href="tel:+5513974032217">(13) 9 7403-2217 – Márcio</a>
+        <a href="mailto:santoscleann@gmail.com">santoscleann@gmail.com</a>
+      </address>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Santos Clean. Todos os direitos reservados.</p>
+    <p class="footer-credit">Desenvolvido por <a href="#">Flávio Sandri Caputo</a></p>
+  </div>
+</footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('navMenu').classList.toggle('open');
+    document.getElementById('hamburger').classList.toggle('open');
+  }
+  document.querySelectorAll('#navMenu a').forEach(a =>
+    a.addEventListener('click', () => {
+      document.getElementById('navMenu').classList.remove('open');
+      document.getElementById('hamburger').classList.remove('open');
+    })
+  );
+  const io = new IntersectionObserver(entries => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 70);
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Santos Clean – Higiene, Limpeza e Descartáveis</title>
+  <meta name="description" content="Distribuidora institucional de produtos de higiene, limpeza e descartáveis. Mais de 3.000 itens para empresas de todos os portes."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img
+      src="logo.png"
+      alt="Santos Clean"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+    />
+    <div class="logo-placeholder" style="display:none;">
+      <span>🖼</span> logo.png
+    </div>
+  </a>
+
+  <ul class="nav-links" id="navMenu">
+    <li><a href="index.html" class="active">Início</a></li>
+    <li><a href="quem-somos.html">Quem Somos</a></li>
+    <li><a href="produtos.html">Produtos</a></li>
+    <li>
+      <a href="https://wa.me/5513974032217?text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20os%20produtos%20Santos%20Clean."
+         target="_blank" rel="noopener" class="nav-wa">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Fale Conosco
+      </a>
+    </li>
+  </ul>
+
+  <button class="nav-hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Abrir menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-geo hero-geo-1"></div>
+  <div class="hero-geo hero-geo-2"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Empresa 100% Brasileira · Desde 2014</div>
+    <h1>Limpeza profissional<br/>começa com os produtos <em>certos</em></h1>
+    <p>Distribuição institucional de higiene, limpeza e descartáveis para empresas de todos os portes. Mais de 3.000 itens com qualidade garantida e entrega ágil.</p>
+    <div class="hero-btns">
+      <a href="produtos.html" class="btn-primary">Ver Produtos &rarr;</a>
+      <a href="quem-somos.html" class="btn-ghost">Conheça a empresa</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><strong>3.000+</strong><small>Itens disponíveis</small></div>
+      <div class="hero-stat"><strong>10+</strong><small>Anos no mercado</small></div>
+      <div class="hero-stat"><strong>100%</strong><small>Garantia de qualidade</small></div>
+    </div>
+  </div>
+</section>
+
+<div class="ambientes">
+  <p class="ambientes-label">Atendemos todos os segmentos</p>
+  <div class="ambientes-row">
+    <span class="amb-chip">🏬 Shoppings</span>
+    <span class="amb-chip">🛒 Supermercados</span>
+    <span class="amb-chip">🏋️ Academias</span>
+    <span class="amb-chip">🍺 Bares</span>
+    <span class="amb-chip">🍽️ Restaurantes</span>
+    <span class="amb-chip">🏫 Escolas</span>
+    <span class="amb-chip">🏢 Escritórios</span>
+    <span class="amb-chip">🏠 Residências</span>
+    <span class="amb-chip">🏥 Hospitais</span>
+    <span class="amb-chip">🩺 Clínicas</span>
+    <span class="amb-chip">+ muito mais</span>
+  </div>
+</div>
+
+<!-- ===== VANTAGENS ===== -->
+<section class="features">
+  <div class="features-grid">
+    <div class="features-visual reveal">
+      <div class="fv-title">SANTOS<span>CLEAN</span></div>
+      <div class="fv-sub">Distribuidora institucional · Santos, SP</div>
+      <div class="fv-tags">
+        <span class="fv-tag">✓ Qualidade</span>
+        <span class="fv-tag">✓ Comprometimento</span>
+        <span class="fv-tag">✓ Inovação</span>
+        <span class="fv-tag">✓ Sustentabilidade</span>
+        <span class="fv-tag">✓ Ética</span>
+      </div>
+    </div>
+    <div class="features-list">
+      <div class="feature-item reveal">
+        <div class="feature-icon fi-blue">🏆</div>
+        <div>
+          <h4>Produtos de Primeira Linha</h4>
+          <p>Certeza de estar comprando produtos de qualidade pelo melhor preço, com garantia de metragens e quantidades especificadas.</p>
+        </div>
+      </div>
+      <div class="feature-item reveal" style="transition-delay:.08s">
+        <div class="feature-icon fi-orange">🚚</div>
+        <div>
+          <h4>Entrega Ágil e Programável</h4>
+          <p>Agilidade na entrega com possibilidade de programação de datas para melhor se adaptar à rotina da sua empresa.</p>
+        </div>
+      </div>
+      <div class="feature-item reveal" style="transition-delay:.16s">
+        <div class="feature-icon fi-green">🤝</div>
+        <div>
+          <h4>Atendimento Personalizado</h4>
+          <p>Atendemos pequenas, médias e grandes empresas com soluções inteligentes e econômicas para cada necessidade.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FABRICANTES ===== -->
+<section class="brands">
+  <div class="brands-head reveal">
+    <span class="section-tag">Parceiros de Qualidade</span>
+    <h2 class="section-title on-dark">Fabricantes</h2>
+    <div class="accent-bar center"></div>
+    <p class="section-sub on-dark" style="margin:0 auto;text-align:center;">Trabalhamos com as marcas líderes do segmento, garantindo procedência em cada produto.</p>
+  </div>
+  <div class="brands-grid reveal" style="transition-delay:.1s">
+    <div class="brand-pill">Perol</div>
+    <div class="brand-pill">Premisse</div>
+    <div class="brand-pill">Genco</div>
+    <div class="brand-pill">Coposul</div>
+    <div class="brand-pill">Netter</div>
+    <div class="brand-pill">SuperPro Bettanin</div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<div class="cta-banner">
+  <h2>Pronto para solicitar um orçamento?</h2>
+  <p>Fale direto com nosso representante comercial via WhatsApp.</p>
+  <a href="https://wa.me/5513974032217?text=Olá%2C%20gostaria%20de%20um%20orçamento%20Santos%20Clean."
+     target="_blank" rel="noopener" class="btn-white">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    Falar no WhatsApp
+  </a>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-name">SANTOS<span>CLEAN</span></div>
+      <p class="footer-desc">Distribuidora 100% brasileira de produtos de higiene, limpeza e descartáveis para o mercado institucional. Desde 2014.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navegação</h5>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="quem-somos.html">Quem Somos</a></li>
+        <li><a href="produtos.html">Nossos Produtos</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Contato</h5>
+      <address>
+        <a href="tel:+551330270402">(13) 3027-0402</a>
+        <a href="tel:+5513974032217">(13) 9 7403-2217 – Márcio</a>
+        <a href="mailto:santoscleann@gmail.com">santoscleann@gmail.com</a>
+      </address>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Santos Clean. Todos os direitos reservados.</p>
+    <p class="footer-credit">Desenvolvido por <a href="#">Flávio Sandri Caputo</a></p>
+  </div>
+</footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('navMenu').classList.toggle('open');
+    document.getElementById('hamburger').classList.toggle('open');
+  }
+  document.querySelectorAll('#navMenu a').forEach(a =>
+    a.addEventListener('click', () => {
+      document.getElementById('navMenu').classList.remove('open');
+      document.getElementById('hamburger').classList.remove('open');
+    })
+  );
+  const io = new IntersectionObserver(entries => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 70);
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

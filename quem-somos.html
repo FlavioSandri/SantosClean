@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quem Somos – Santos Clean</title>
+  <meta name="description" content="Conheça a Santos Clean, empresa 100% brasileira no mercado institucional de higiene, limpeza e descartáveis desde 2014."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img
+      src="logo.png"
+      alt="Santos Clean"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+    />
+    <div class="logo-placeholder" style="display:none;">
+      <span>🖼</span> logo.png
+    </div>
+  </a>
+
+  <ul class="nav-links" id="navMenu">
+    <li><a href="index.html">Início</a></li>
+    <li><a href="quem-somos.html" class="active">Quem Somos</a></li>
+    <li><a href="produtos.html">Produtos</a></li>
+    <li>
+      <a href="https://wa.me/5513974032217?text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20os%20produtos%20Santos%20Clean."
+         target="_blank" rel="noopener" class="nav-wa">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Fale Conosco
+      </a>
+    </li>
+  </ul>
+
+  <button class="nav-hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Abrir menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb">
+      <a href="index.html">Início</a>
+      <span>›</span>
+      <span style="color:#fff">Quem Somos</span>
+    </div>
+    <h1>Uma empresa <em>100% brasileira</em><br/>dedicada à sua limpeza</h1>
+    <p>Desde 2014 no mercado institucional, fornecemos produtos de higiene, limpeza e descartáveis com ética, qualidade e comprometimento.</p>
+  </div>
+</section>
+
+<!-- ===== HISTÓRIA ===== -->
+<section class="story">
+  <div class="story-grid">
+    <div class="story-card reveal">
+      <div class="sc-logo">SANTOS<span>CLEAN</span></div>
+      <div class="sc-tagline">Produtos de Higiene, Limpeza e Descartáveis</div>
+      <div class="sc-metrics">
+        <div class="sc-metric"><strong>2014</strong><small>Fundação</small></div>
+        <div class="sc-metric"><strong>3.000+</strong><small>Itens</small></div>
+        <div class="sc-metric"><strong>B2B</strong><small>Mercado</small></div>
+        <div class="sc-metric"><strong>Santos</strong><small>São Paulo</small></div>
+      </div>
+    </div>
+    <div class="story-text reveal" style="transition-delay:.1s">
+      <span class="section-tag">A Empresa</span>
+      <h2 class="section-title">Nossa história</h2>
+      <div class="accent-bar"></div>
+      <p>A <strong>Santos Clean</strong> é uma empresa 100% brasileira que atua no mercado institucional de higiene, limpeza e descartáveis desde 2014. Nascemos com o propósito de fornecer produtos de alta qualidade, atuando com ética e buscando sempre superar as expectativas dos nossos clientes.</p>
+      <p>Nosso portfólio com mais de <strong>3.000 itens</strong> foi desenvolvido para atender todos os ambientes — shoppings, supermercados, academias, bares, restaurantes, escolas, escritórios, residências, hospitais, clínicas, consultórios e muito mais.</p>
+      <p>Atendemos empresas de <strong>pequeno, médio e grande porte</strong>, oferecendo sempre uma solução inteligente e econômica para alcançar a excelência na limpeza doméstica ou profissional.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MISSÃO / VISÃO / VALORES ===== -->
+<section class="mvv">
+  <div class="mvv-head reveal">
+    <span class="section-tag">Nossos Pilares</span>
+    <h2 class="section-title on-dark">Missão, Visão e Valores</h2>
+    <div class="accent-bar center"></div>
+  </div>
+  <div class="mvv-cards">
+    <div class="mvv-card reveal">
+      <div class="mvv-icon">🎯</div>
+      <h3>Missão</h3>
+      <p>Atender as necessidades e superar as expectativas dos nossos clientes com confiabilidade, destacando-se no mercado de distribuição de produtos de higiene e limpeza.</p>
+    </div>
+    <div class="mvv-card reveal" style="transition-delay:.08s">
+      <div class="mvv-icon">🔭</div>
+      <h3>Visão</h3>
+      <p>Ser referência no mercado institucional, buscando aprimoramento contínuo na distribuição de produtos e no relacionamento com clientes e colaboradores.</p>
+    </div>
+    <div class="mvv-card reveal" style="transition-delay:.16s">
+      <div class="mvv-icon">💎</div>
+      <h3>Valores</h3>
+      <p>Qualidade, Comprometimento, Inovação, Ética e Respeito, e Sustentabilidade são os princípios que guiam cada decisão e cada entrega da Santos Clean.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VALORES ===== -->
+<section class="values-section">
+  <div class="reveal">
+    <span class="section-tag">O que nos guia</span>
+    <h2 class="section-title">Nossos Valores</h2>
+    <div class="accent-bar center"></div>
+  </div>
+  <div class="values-pills reveal" style="transition-delay:.1s">
+    <div class="value-pill">✓ Qualidade</div>
+    <div class="value-pill">✓ Comprometimento</div>
+    <div class="value-pill">✓ Inovação</div>
+    <div class="value-pill">✓ Ética e Respeito</div>
+    <div class="value-pill">✓ Sustentabilidade</div>
+  </div>
+</section>
+
+<!-- ===== REPRESENTANTE ===== -->
+<section class="rep-section">
+  <div class="rep-card reveal">
+    <div class="rep-avatar">👨‍💼</div>
+    <h3>Márcio França</h3>
+    <p class="rep-role">Representante Comercial</p>
+    <p>Entre em contato diretamente com nosso representante para solicitar orçamentos, tirar dúvidas ou fechar parcerias.</p>
+    <div class="rep-contact">
+      <a href="https://wa.me/5513974032217?text=Olá%2C%20Márcio!%20Gostaria%20de%20um%20orçamento%20Santos%20Clean."
+         target="_blank" rel="noopener" class="rep-wa">
+        <svg viewBox="0 0 24 24" style="width:16px;height:16px;fill:currentColor;flex-shrink:0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        (13) 9 7403-2217 – WhatsApp
+      </a>
+      <a href="mailto:santoscleann@gmail.com">✉️ santoscleann@gmail.com</a>
+      <a href="tel:+551330270402">📞 (13) 3027-0402</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-name">SANTOS<span>CLEAN</span></div>
+      <p class="footer-desc">Distribuidora 100% brasileira de produtos de higiene, limpeza e descartáveis para o mercado institucional. Desde 2014.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navegação</h5>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="quem-somos.html">Quem Somos</a></li>
+        <li><a href="produtos.html">Nossos Produtos</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Contato</h5>
+      <address>
+        <a href="tel:+551330270402">(13) 3027-0402</a>
+        <a href="tel:+5513974032217">(13) 9 7403-2217 – Márcio</a>
+        <a href="mailto:santoscleann@gmail.com">santoscleann@gmail.com</a>
+      </address>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Santos Clean. Todos os direitos reservados.</p>
+    <p class="footer-credit">Desenvolvido por <a href="#">Flávio Sandri Caputo</a></p>
+  </div>
+</footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('navMenu').classList.toggle('open');
+    document.getElementById('hamburger').classList.toggle('open');
+  }
+  document.querySelectorAll('#navMenu a').forEach(a =>
+    a.addEventListener('click', () => {
+      document.getElementById('navMenu').classList.remove('open');
+      document.getElementById('hamburger').classList.remove('open');
+    })
+  );
+  const io = new IntersectionObserver(entries => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 70);
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
